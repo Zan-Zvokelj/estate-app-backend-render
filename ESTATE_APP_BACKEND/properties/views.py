@@ -1,5 +1,6 @@
 from django.shortcuts import render
-from ESTATE_APP_BACKEND.properties.serializer import PropertySerializer
+from ESTATE_APP_BACKEND.properties.serializers import PropertySerializer
+
 
 from rest_framework import views, viewsets
 from rest_framework.permissions import AllowAny
