@@ -125,9 +125,9 @@ WSGI_APPLICATION = 'ESTATE_APP_BACKEND.wsgi.application'
 
 
 CORS_ALLOWED_ORIGINS = [
-    'https://zan-zvokelj.github.io',  # Ensure this is included
+    'http://localhost:4200',
+    'https://zan-zvokelj.github.io',
 ]
-
 
 CSRF_TRUSTED_ORIGINS = [
     'https://*.onrender.com',
