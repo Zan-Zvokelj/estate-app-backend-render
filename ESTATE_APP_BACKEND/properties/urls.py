@@ -1,5 +1,5 @@
 from django.urls import include, path
-from properties import views
+from ESTATE_APP_BACKEND.properties import views
 from properties.views import PropertyViewSet
 from rest_framework import routers
 
