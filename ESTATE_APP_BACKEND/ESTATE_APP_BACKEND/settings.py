@@ -62,6 +62,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+      "admin_interface",
+  "colorfield",
+  "django.contrib.admin",
 
     'rest_framework',
     'rest_framework.authtoken',
