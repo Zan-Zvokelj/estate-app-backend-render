@@ -52,15 +52,12 @@ SECRET_KEY = env('SECRET_KEY')
 
 ALLOWED_HOSTS = ['*']
 
-
-# Application definition
 INSTALLED_APPS = [
-    
+
     "admin_interface",
     "colorfield",
 
-    # Django core
-    "django.contrib.admin",
+    # Django core (brez admina!)
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.sessions",
@@ -76,7 +73,6 @@ INSTALLED_APPS = [
     "properties",
     "accounts",
 ]
-
 
 
 MIDDLEWARE = [
