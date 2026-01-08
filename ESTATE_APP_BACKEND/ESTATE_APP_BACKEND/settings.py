@@ -51,13 +51,13 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 
 ALLOWED_HOSTS = ['*']
-
 INSTALLED_APPS = [
-
+    #  Admin interface (tema)
     "admin_interface",
     "colorfield",
 
-    # Django core (brez admina!)
+    # Django core (OBVEZNO)
+    "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.sessions",
@@ -73,6 +73,7 @@ INSTALLED_APPS = [
     "properties",
     "accounts",
 ]
+
 
 
 MIDDLEWARE = [
