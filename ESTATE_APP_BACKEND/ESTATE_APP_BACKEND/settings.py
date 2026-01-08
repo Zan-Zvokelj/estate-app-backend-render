@@ -54,24 +54,27 @@ ALLOWED_HOSTS = ['*']
 
 
 # Application definition
-
 INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-      "admin_interface",
-  "colorfield",
-  "django.contrib.admin",
+    
+    "admin_interface",
+    "colorfield",
 
-    'rest_framework',
-    'rest_framework.authtoken',
-    'corsheaders',
+    # Django core
+    "django.contrib.admin",
+    "django.contrib.auth",
+    "django.contrib.contenttypes",
+    "django.contrib.sessions",
+    "django.contrib.messages",
+    "django.contrib.staticfiles",
 
-    'properties',
-    'accounts',
+    # Third-party
+    "rest_framework",
+    "rest_framework.authtoken",
+    "corsheaders",
+
+    # Local apps
+    "properties",
+    "accounts",
 ]
 
 
