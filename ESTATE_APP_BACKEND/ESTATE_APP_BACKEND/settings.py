@@ -62,15 +62,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
     'rest_framework',
     'rest_framework.authtoken',
+    'corsheaders',
 
-
-'corsheaders',
-#applications
-    'properties',
-    'accounts',
-    
+    'ESTATE_APP_BACKEND.properties',
+    'ESTATE_APP_BACKEND.accounts',
 ]
 
 
@@ -123,6 +121,12 @@ WSGI_APPLICATION = 'ESTATE_APP_BACKEND.wsgi.application'
 
 CORS_ALLOWED_ORIGINS = [
     'https://zan-zvokelj.github.io',  # Ensure this is included
+]
+
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://*.onrender.com',
+    'https://zan-zvokelj.github.io',
 ]
 
 
