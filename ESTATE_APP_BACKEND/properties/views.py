@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from ESTATE_APP_BACKEND.properties.serializers import PropertySerializer
+from properties.serializers import PropertySerializer
 
 
 

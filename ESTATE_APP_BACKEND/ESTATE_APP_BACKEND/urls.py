@@ -16,9 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
-from ESTATE_APP_BACKEND.properties import urls as properties_urls
+from properties import urls as properties_urls
 
-from ESTATE_APP_BACKEND.accounts import urls as accounts_urls
+from accounts import urls as accounts_urls
 
 
 urlpatterns = [

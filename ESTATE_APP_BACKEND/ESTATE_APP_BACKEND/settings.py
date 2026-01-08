@@ -67,8 +67,8 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'corsheaders',
 
-    'ESTATE_APP_BACKEND.properties',
-    'ESTATE_APP_BACKEND.accounts',
+    'properties',
+    'accounts',
 ]
 
 

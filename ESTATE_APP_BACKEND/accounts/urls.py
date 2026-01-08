@@ -1,4 +1,4 @@
-from ESTATE_APP_BACKEND.accounts import views
+from accounts import views
 from django.urls import path
 
 urlpatterns = [
