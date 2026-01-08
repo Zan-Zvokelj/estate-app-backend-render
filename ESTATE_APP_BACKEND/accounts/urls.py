@@ -1,7 +1,7 @@
-from accounts import views
 from django.urls import path
+from .views import UserRegistrationView, CustomAuthToken
 
 urlpatterns = [
-    path('api/auth/', views.CustomAuthToken.as_view()),
-    path('api/register/', views.UserRegistrationView.as_view(), name='user-registration'),
+    path('api/register/', UserRegistrationView.as_view(), name='register'),
+    path('api/auth/', CustomAuthToken.as_view(), name='login'),
 ]
